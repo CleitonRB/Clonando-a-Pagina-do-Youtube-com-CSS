@@ -1,0 +1,166 @@
+/* HEADER */
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+header .logo-menu, 
+header .search {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo-menu img{
+    margin-left: 24px;
+}
+
+header .search {
+    width: 400px;
+    height: 40px;
+}
+
+header #search {
+    width: 350px;
+    height: auto;
+    border-radius: 0%;
+    border: 1px solid #ccc;
+}
+
+header #search-logo {
+    width: 60px;
+    height: auto;
+    border-radius: 0%;
+    border: 1px solid #ccc;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+}
+
+#video, #notification-logo {
+    width: 24px;
+    height: 24px;
+}
+
+#avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* MAIN */
+
+main {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+}
+
+.Watching-video {
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 746px;
+    margin-left: 75px;
+    gap: 16px;
+}
+
+#main-thumbnail {
+    width: 952px;
+    height: 537px;
+}
+
+#title {
+    font-size: 20px;
+    color: #000;
+}
+
+.video-actions {
+    width: 902px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-actions #avatar-channel {
+    width: 42px;
+    height: 42px;
+}
+
+.channel-info {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+}
+
+.sign-up{
+    background-color: #cc0000;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+.like,
+.dislike,
+.share,
+.download {
+    margin-left: 8px;
+}
+
+.description {
+    width: 510px;
+    height: 64px;
+}
+
+.recommended {
+    height: 938px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 16px;
+}
+
+.recommended .video {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.thumbnail img {
+    width: 160px;
+    height: 90px;
+}
+
+.thumbnail-info {
+    width: 196px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.thumbnail-views,
+.thumbnail-info {
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+}
+
